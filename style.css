@@ -1,0 +1,58 @@
+body {
+    background-color: #FFEBAD;
+  }
+  .heading{
+    background-color: #bbb6fb4f;
+    justify-content: center;
+  }
+  strong{
+    margin-left: 40%;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .selections {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .selection {
+    padding: 1rem;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 3rem;
+    transition: 100ms;
+  }
+  
+  .selection:hover {
+    transform: scale(1.2);
+  }
+  
+  .results {
+    background-color: #fbfbfb52;
+    font-size: 2rem;
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .result-score {
+    margin-left: .1rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .result-selection {
+    font-size: 1.5rem;
+    opacity: .5;
+  }
+  
+  .result-selection.winner {
+    opacity: 1;
+    font-size: 2.5rem;
+  }
